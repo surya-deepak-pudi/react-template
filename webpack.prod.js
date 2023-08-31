@@ -30,7 +30,9 @@ module.exports = (enc, argv) => {
             },
         })
     )
-    common.optimization.minimizer.push(new TerserPlugin())
+    common.optimization.minimizer.push(
+        new TerserPlugin({ extractComments: false })
+    )
     if (argv === "development") {
         config.mode = argv
         config.devtool = "source-map"

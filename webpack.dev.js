@@ -23,10 +23,10 @@ module.exports = () => {
                 },
             },
             proxy: {
-                "/sample": {
-                    target: "https://www.google.com/",
+                "/api": {
+                    target: "https://reqres.in",
                     secure: false,
-                    changeOrigin: false,
+                    changeOrigin: true,
                 },
             },
         },

@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the Users Screen Should render users list with snapshot 1`] = `
+<div
+  className="MuiBox-root css-0"
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+    data-testid="user-title"
+  >
+    Users
+  </p>
+  <div
+    className="MuiBox-root css-0"
+    data-testid="user-list"
+  >
+    <li
+      className="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-alignItemsFlexStart css-hhvo2v-MuiListItem-root"
+      data-testid="user-list-item"
+      disabled={false}
+    >
+      <div
+        className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart css-1m6607n-MuiListItemAvatar-root"
+      >
+        <div
+          className="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+          data-testid="user-list-avatar"
+        >
+          <img
+            alt="George"
+            className="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+            src="https://reqres.in/img/faces/1-image.jpg"
+          />
+        </div>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+        data-testid="user-list-text"
+      >
+        <span
+          className="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+        >
+          George Bluth
+        </span>
+        <p
+          className="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-83ijpv-MuiTypography-root"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2 css-1phucj-MuiTypography-root"
+          >
+            george.bluth@reqres.in
+          </span>
+        </p>
+      </div>
+    </li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-alignItemsFlexStart css-hhvo2v-MuiListItem-root"
+      data-testid="user-list-item"
+      disabled={false}
+    >
+      <div
+        className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart css-1m6607n-MuiListItemAvatar-root"
+      >
+        <div
+          className="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+          data-testid="user-list-avatar"
+        >
+          <img
+            alt="Janet"
+            className="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+            src="https://reqres.in/img/faces/2-image.jpg"
+          />
+        </div>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+        data-testid="user-list-text"
+      >
+        <span
+          className="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+        >
+          Janet Weaver
+        </span>
+        <p
+          className="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-83ijpv-MuiTypography-root"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2 css-1phucj-MuiTypography-root"
+          >
+            janet.weaver@reqres.in
+          </span>
+        </p>
+      </div>
+    </li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-alignItemsFlexStart css-hhvo2v-MuiListItem-root"
+      data-testid="user-list-item"
+      disabled={false}
+    >
+      <div
+        className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart css-1m6607n-MuiListItemAvatar-root"
+      >
+        <div
+          className="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+          data-testid="user-list-avatar"
+        >
+          <img
+            alt="Emma"
+            className="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+            src="https://reqres.in/img/faces/3-image.jpg"
+          />
+        </div>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+        data-testid="user-list-text"
+      >
+        <span
+          className="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+        >
+          Emma Wong
+        </span>
+        <p
+          className="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-83ijpv-MuiTypography-root"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2 css-1phucj-MuiTypography-root"
+          >
+            emma.wong@reqres.in
+          </span>
+        </p>
+      </div>
+    </li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-alignItemsFlexStart css-hhvo2v-MuiListItem-root"
+      data-testid="user-list-item"
+      disabled={false}
+    >
+      <div
+        className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart css-1m6607n-MuiListItemAvatar-root"
+      >
+        <div
+          className="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+          data-testid="user-list-avatar"
+        >
+          <img
+            alt="Eve"
+            className="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+            src="https://reqres.in/img/faces/4-image.jpg"
+          />
+        </div>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+        data-testid="user-list-text"
+      >
+        <span
+          className="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+        >
+          Eve Holt
+        </span>
+        <p
+          className="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-83ijpv-MuiTypography-root"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2 css-1phucj-MuiTypography-root"
+          >
+            eve.holt@reqres.in
+          </span>
+        </p>
+      </div>
+    </li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-alignItemsFlexStart css-hhvo2v-MuiListItem-root"
+      data-testid="user-list-item"
+      disabled={false}
+    >
+      <div
+        className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart css-1m6607n-MuiListItemAvatar-root"
+      >
+        <div
+          className="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+          data-testid="user-list-avatar"
+        >
+          <img
+            alt="Charles"
+            className="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+            src="https://reqres.in/img/faces/5-image.jpg"
+          />
+        </div>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+        data-testid="user-list-text"
+      >
+        <span
+          className="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+        >
+          Charles Morris
+        </span>
+        <p
+          className="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-83ijpv-MuiTypography-root"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2 css-1phucj-MuiTypography-root"
+          >
+            charles.morris@reqres.in
+          </span>
+        </p>
+      </div>
+    </li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-alignItemsFlexStart css-hhvo2v-MuiListItem-root"
+      data-testid="user-list-item"
+      disabled={false}
+    >
+      <div
+        className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart css-1m6607n-MuiListItemAvatar-root"
+      >
+        <div
+          className="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+          data-testid="user-list-avatar"
+        >
+          <img
+            alt="Tracey"
+            className="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+            src="https://reqres.in/img/faces/6-image.jpg"
+          />
+        </div>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+        data-testid="user-list-text"
+      >
+        <span
+          className="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+        >
+          Tracey Ramos
+        </span>
+        <p
+          className="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-83ijpv-MuiTypography-root"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2 css-1phucj-MuiTypography-root"
+          >
+            tracey.ramos@reqres.in
+          </span>
+        </p>
+      </div>
+    </li>
+  </div>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+    data-testid="user-fetch-button"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    Fetch!
+  </button>
+</div>
+`;

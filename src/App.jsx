@@ -1,9 +1,10 @@
 import React from "react"
+import { Users } from "./pages"
 
 const App = () => {
     return (
         <div>
-            <h1 className="hello">Hello React</h1>
+            <Users></Users>
         </div>
     )
 }

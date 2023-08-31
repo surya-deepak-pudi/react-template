@@ -41,6 +41,14 @@ module.exports = {
     resolve: {
         modules: [path.join(__dirname, "src"), "node_modules"],
         extensions: [".js", ".jsx", ".css", ".json"],
+        alias: {
+            Utils: path.resolve(__dirname, "src/utils"),
+            Mocks: path.resolve(__dirname, "src/mocks"),
+            Hooks: path.resolve(__dirname, "src/hooks"),
+            Assets: path.resolve(__dirname, "src/assets"),
+            Components: path.resolve(__dirname, "src/components"),
+            Contexts: path.resolve(__dirname, "src/contexts"),
+        },
     },
     plugins: [
         new HtmlWebpackPlugin({
